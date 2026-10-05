@@ -4,6 +4,7 @@ import LandMap from "./LandMap";
 import LandHistory from "./LandHistory";
 import PolicyIntelligence from "./PolicyIntelligence";
 import TrendAnalysis from "./TrendAnalysis";
+import PolicySimulation from "./PolicySimulation";
 
 function App() {
   const [searchText, setSearchText] = useState("");
@@ -206,6 +207,8 @@ function App() {
         <PolicyIntelligence />
 
         <TrendAnalysis />
+
+        <PolicySimulation />
 
         <section className="insight-strip">
 
